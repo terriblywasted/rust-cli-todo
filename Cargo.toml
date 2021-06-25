@@ -8,3 +8,4 @@ rand = "0.8.4"
 faker_rand = "0.1.1"
 yew = "0.18"
 getrandom = { version = "0.2", features = ["js"] }
+chrono = "0.4"

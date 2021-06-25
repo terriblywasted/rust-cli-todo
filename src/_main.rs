@@ -2,6 +2,7 @@ use faker_rand::en_us::company::Slogan;
 use rand::Rng;
 use std::collections::HashMap;
 use std::io;
+use std::time::SystemTime;
 
 enum Action {
   Add,
@@ -14,6 +15,7 @@ enum Action {
 struct Todo {
   title: String,
   is_completed: bool,
+  createdAt: u32,
 }
 
 impl Todo {
